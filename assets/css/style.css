@@ -1,0 +1,361 @@
+.opening { padding: 20px;
+}
+
+/* main page photo cover in opening */
+
+.lock {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+
+
+.btn {
+  width: 100%;
+ 
+}
+
+.searchPackage {
+  padding: 10px;
+  padding-top: 50px;
+  margin-top: 100px;
+}
+
+.iframe {
+    float: right;
+    margin-top: 20px;
+}
+
+.formBox {
+  width: 500px;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+/* Align search button on home page */
+/* .classicaccess {
+  text-align: center;
+  padding-top: 20px;
+  float: right;
+  z-index: 4;
+  position: absolute;
+  left: 45%; 
+  top: 10px;
+  
+} */
+
+.search {
+  z-index: -1;
+}
+
+.fix {
+  position: fixed;
+  width: 100%;
+}
+
+h2 { 
+    padding-top: 30px;
+  }
+/* navbar padding */
+.topnav {
+  padding: 10px;
+}
+.corporatep {
+  padding: 50px;
+  font-size: 22px;
+  font-stretch: expanded;
+  line-height: 2em;
+  text-align: center;
+}
+
+/* padding contact us */
+.padding {
+  padding: 10px;
+  
+}
+
+.why {
+  text-align: center;
+}
+
+
+
+/* specials page format */
+.specials1 {
+  margin-right: 50px;
+}
+
+.cert {
+  padding: 40px;
+}
+
+.logoHeader {
+    position: absolute;
+    top: 25px;
+    padding: 10px;
+    width: 800px;
+    height: 210px;
+    
+  }
+
+
+.slideshow {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.uk-card-body {
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 30px; 
+
+}
+
+/* styling for card specials */
+.cardFloat {
+  float: left;
+  margin: 20px;
+  height: 400px;
+ }
+
+/* align text in footer */
+.line {
+  text-align: left;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* img {
+  padding: 5px;
+} */
+.aligned {
+  align-content: left;
+}
+
+.logo {
+   text-align: center;
+}
+
+
+
+.pmargin {
+  text-align: center;
+ font-size: 18px; 
+  margin-right: 70px;
+  
+} 
+
+.hwidth {
+  margin-top: 125px;
+}
+
+/* mobile navbar css */
+.dis-none{
+  display: none;
+}
+#navbar_toggle{
+  position: absolute;
+  right: 1em;
+  top: 2em;
+}
+.h-40{
+  height: 40px !important;
+  min-height: 40px;
+}
+.logo{ width:70px; }
+
+/* font-family: 'Reenie Beanie', cursive; */
+
+/* Sign Up - Thank you */
+/* .thanks {
+  position: relative;
+  width: "100%";
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  padding-top: 100px;
+
+}
+
+.thanks btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.thanks .btn:hover {
+  background-color: black;
+} */
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+
+@media screen and (max-width:768px){
+  .uk-navbar-left{
+      display: block;
+      width: 100%;
+  }
+  .uk-navbar-item{ display: inline; }
+  
+  .uk-navbar-nav{ display:block; }
+  .navbar-collapse{ width:100%; }
+  .uk-navbar-nav li{
+      display: block;
+      padding: 10px;
+      height: 40px;
+      border-bottom: 1px solid #ddd;
+  }
+  .uk-navbar-nav li a{
+      display: block;
+      width: 80%;
+      padding: 0.5rem 1rem;
+  }
+}
+
+/* end navbar mobile css */
+
+/* img {padding: 20px;
+        border-radius: 5em;} */
+
+@media screen and (max-width: 992px) {
+img {
+      width: 100%;
+      height: auto;
+    }
+    #soon { font-size: 20px;
+    }     
+    .iframe {
+      width: 700px;
+      height: 350px;
+      float: right;
+    }
+
+    .menu-none {
+      display: none;
+    }
+
+
+  } 
+   
+  @media screen and (max-width: 748px) {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .a
+        {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 75%;
+        }
+
+   
+
+        #soon { font-size: 20px;
+        }     
+        
+        .pmargin {
+          text-align: center;
+        }
+
+        .iframe {
+          width: 300px;
+          height: 1600px;
+          float: right;
+          margin-right: 40px;
+        }
+
+        .navbar-collapse {
+          display: none;
+        }
+    
+        
+      } 
+
+       
+
+@media only screen and (max-width: 300px) {
+    img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .iframe {
+        width: 300px;
+        height: 1600px;
+        float: right;
+        margin-right: 40px;
+      }
+
+     
+       
+      #soon { font-size: 30px;
+}     
+  } 

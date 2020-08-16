@@ -1,0 +1,123 @@
+
+    .b-main-bcolor {
+    background-color: #bb9b2f !important;
+    }
+    .b-main-bcolor-hover:hover {
+    background-color: #bb9b2f !important;
+    }
+    .b-main-fcolor {
+    color: #bb9b2f !important;
+    }
+    .b-main-fcolor-hover:hover {
+    color: #bb9b2f !important;
+    }
+    .b-main-border-color{
+    border-color: #bb9b2f !important;
+    }
+    .b-main-border-color-hover:hover {
+    border-color: #bb9b2f !important;
+    }
+    .b-main-border-color::after{
+    border-color: #bb9b2f !important;
+    }
+
+    .b-second-bcolor {
+    background-color: #faf7f0 !important;
+    }
+    .b-second-bcolor-hover:hover {
+    background-color: #faf7f0 !important;
+    }
+    .b-second-fcolor {
+    color: #faf7f0 !important;
+    }
+    .b-second-fcolor-hover:hover {
+    color: #faf7f0 !important;
+    }
+    .swiper-pagination .swiper-pagination-handle .swiper-pagination-bullet-active {
+    background-color: #faf7f0 !important;
+    }
+    .b-second-border-color{
+    border-color: #faf7f0 !important;
+    }
+    .b-second-border-color-hover:hover {
+    border-color: #faf7f0 !important;
+    }
+    .b-second-border-color::after{
+    border-color: #faf7f0 !important;
+    }
+
+    .b-third-bcolor {
+    background-color: #278cba !important;
+    }
+    .b-third-fcolor {
+    color: #278cba !important;
+    }
+
+    .b-main-background {
+    background-image: url(https://dk66958tcpc60.cloudfront.net/master/5d51b3abeec10585695348.jpg) !important;
+    }
+
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.booking-layer h3, .booking-layer h4, .booking-layer h5, .booking-layer h6, .booking-layer h7, .booking-layer .tit, .booking-layer button, .book-wrap button, .booking-layer strong, .booking-layer dt, .charge-block dt, .modal-content h3, .modal-content h4, .modal-content h5, .modal-content h6, .modal-content h7, .modal-content .total, .step-2-back, .booking-layer .step-title {
+  font-family: Lato, sans-serif !important;
+}
+.title-monthes, .cal-days, .calendar-month, .btn-rates, .btn-book, .room-reserve-btn, .booking-layer, .booking-layer p, .booking-layer dl, .booking-layer .title, .booking-layer span, .booking-layer li, .booking-layer input, .extra-descr a, .modal-content p, .modal-content span, .modal-content li, .modal-content dd, .modal-content .title, .booking-layer h1, .modal-content h1, .booking-layer h2, .modal-content h2, .booking-layer .header-main-navigation, .booking-layer .top-nav, .azds-booking-section html, .azds-booking-section *, .azds-booking-section input, .azds-booking-section select, .azds-booking-section textarea, .azds-booking-section button, .azds-booking-section body, .azds-booking-section div:not(.glyphicon), .azds-booking-section span, .azds-booking-section applet, .azds-booking-section object, .azds-booking-section iframe, .azds-booking-section h1, .azds-booking-section h2, .azds-booking-section h3, .azds-booking-section h4, .azds-booking-section h5, .azds-booking-section h6, .azds-booking-section p, .azds-booking-section blockquote, .azds-booking-section pre, .azds-booking-section abbr, .azds-booking-section acronym, .azds-booking-section address, .azds-booking-section big, .azds-booking-section cite, .azds-booking-section code, .azds-booking-section del, .azds-booking-section dfn, .azds-booking-section em, .azds-booking-section img, .azds-booking-section ins, .azds-booking-section kbd, .azds-booking-section q, .azds-booking-section s, .azds-booking-section samp, .azds-booking-section small, .azds-booking-section strike, .azds-booking-section strong, .azds-booking-section sub, .azds-booking-section sup, .azds-booking-section tt, .azds-booking-section var, .azds-booking-section b, .azds-booking-section u, .azds-booking-section i, .azds-booking-section center, .azds-booking-section dl, .azds-booking-section dt, .azds-booking-section dd, .azds-booking-section ol, .azds-booking-section ul, .azds-booking-section li, .azds-booking-section fieldset, .azds-booking-section form, .azds-booking-section label, .azds-booking-section legend, .azds-booking-section table, .azds-booking-section caption, .azds-booking-section tbody, .azds-booking-section tfoot, .azds-booking-section thead, .azds-booking-section tr, .azds-booking-section th, .azds-booking-section td, .azds-booking-section article, .azds-booking-section aside, .azds-booking-section canvas, .azds-booking-section details, .azds-booking-section embed, .azds-booking-section figure, .azds-booking-section figcaption, .azds-booking-section footer, .azds-booking-section header, .azds-booking-section hgroup, .azds-booking-section menu, .azds-booking-section nav, .azds-booking-section output, .azds-booking-section ruby, .azds-booking-section section, .azds-booking-section summary, .azds-booking-section time, .azds-booking-section mark, .azds-booking-section audio, .azds-booking-section video, .azds-booking-section .reserve-form .inp input, .form-input.month, select.form-input, .form-label, .azds-booking-section .reserve-form .t-area textarea, .booking-layer select, .reserve-box[_ngcontent-c18] .customer[_ngcontent-c18] .booking-sel[_ngcontent-c18] select[_ngcontent-c18], .promo-wrap[_ngcontent-c18] .promo-block[_ngcontent-c18] input[type="text"][_ngcontent-c18], .promo-block[_ngcontent-c18] input[_ngcontent-c18]::-webkit-input-placeholder, .booking-sel[_ngcontent-c18] select.promo-select[_ngcontent-c18] {
+  font-family: Lato, sans-serif !important;
+}
+
+.azds-booking-section select {
+    color: #000 !important;
+}
+
+.azds-booking-section .reserve-form .sel select {
+    color: #a5a4a4 !important;
+}
+
+.azds-booking-section .enhance-stay-block .add-button, .azds-booking-section .enhance-stay-block .add-button, .azds-booking-section .enhance-stay-block .remove-button, .azds-booking-section .enhance-stay-block .remove-button {
+    font-size: 14px;
+}
+
+.booking-overlay-open boutique-price-breakdowns {
+    line-height: normal;
+}
+
+.booking-overlay-open boutique-price-breakdowns li {
+    margin-bottom: 0 !important;
+}
+
+.booking-overlay-open boutique-price-breakdowns .charge-block h1 {
+    margin-top: 0 !important;
+}
+
+.booking-overlay-open boutique-price-breakdowns h4 {
+    font-size: initial !important;
+}
+
+.booking-overlay-open boutique-price-breakdowns p {
+    margin-bottom: initial !important;
+    line-height: normal !important;
+}
+
+.cal-cell.cal-day-cell.expired.cal-past.cal-in-month.cal-has-events.ng-star-inserted{
+opacity: 0.2 !important;
+}
+
+@media screen and (-ms-high-contrast: active) and (-ms-high-contrast: none) {
+  .azds-booking-section .enhance-stay-block .add-button, .azds-booking-section .enhance-stay-block .add-button, .azds-booking-section .enhance-stay-block .remove-button, .azds-booking-section .enhance-stay-block .remove-button {
+    width: 135px;
+  }
+}
+
+.azds-booking-section boutique-dynamic-package-form .enhance-stay-block__item_content button.enhance-stay-block__item_close-btn {
+  letter-spacing: 0;
+  min-width: 0;
+}
+
+.azds-booking-section .btn-book {
+  position: static;
+}
+
+.azds-booking-section .azds-multi-room-items div[class*='col-'] {
+  float: none;
+}

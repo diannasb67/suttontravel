@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- JQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+    <title>Home</title>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left uk-logo">
+            <img src="./assets/images/stlogo.png" alt="suttontravellogo" class="responsive a">
+        </div>
+
+        <div class="uk-navbar-right">
+        </div>
+        <div class="uk-navbar-left topnav">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="index.html">Home</a></li>
+                <li>
+                    <a href="specials.html">
+                        <span class="uk-icon uk-margin-small-right" uk-icon="icon: star"></span>
+                        Exclusive Travel Specials
+                    </a>
+                </li>
+
+                <!-- <li>
+                    <a class="uk-navbar-toggle" href="">Services</a>
+
+
+                    <div class="uk-navbar-dropdown">
+
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="corporate.html">Corporate Travel</a></li>
+                            <li class="uk-active"><a href="">Leisure Travel</a></li>
+                            <li class="uk-active"><a href="">Incentive Group Travel</a></li>
+                            <li class="uk-active"><a href="">Hotel Discount Program</a></li>
+                        </ul>
+                    </div>
+                </li> -->
+                <!-- <li><a href="">Destinations</a></li>
+                <li><a href="">About Us</a></li> -->
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- header opening -->
+
+    <div class="uk-height-large uk-background-cover uk-light uk-flex uk-img" uk-parallax="bgy: -200 pacity: 0,1"
+        style="background-image: url('./assets/images/mexcover.jpg');">
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"></h1>
+
+    </div>
+    <!-- end of 1st photo header -->
+
+    <!-- begin of Intro Headline -->
+    <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"
+            uk-parallax="target: #test-target; color: #4d4dff; viewport: 0.9 opening">Passionate and Professional</h1>
+
+        <p class="pmargin">Sutton Travel offers
+            leisure and group travel services that are specialized, unique and memorable. Our aim is to offer you the
+            perfect destination experience. We have a variety of Vacation Packages, Tours and Cruises with extra perks
+            and upgrades that will fit any budget. We coordinate every step of the process and work proactively so you
+            can be worry free prior, during and after your trip
+        </p>
+
+    </div>
+    <!-- end of Intro -->
+
+    <!-- begin of Corporate Travel -->
+
+    <div class="uk-child-width-1-3@m" uk-grid
+        uk-scrollspy="cls: uk-animation-fade; target: > div > .uk-card; delay: 500; repeat: true">
+
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Leisure Travel
+                </h3>
+                <p>Our Leisure Travel Counselors specializes in vacation planning for couples, families, friends
+                    and
+                    groups. We maintain a complete selection of vacation packages and cruises.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Corporate Travel</h3>
+                <p>Our professional travel counselors will work with corporate travelers to develop a custom itinerary,
+                    navigate the airline reservation system, and select ideal flights that are competitively priced.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Group Travel</h3>
+                <p>Our counselors can handle all your group air needs. We will work with your group leader during your
+                    planning stages with air logistics, scheduling and air contract selection. </p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Cruises</h3>
+                <p>Nothing is better than leaving your worries behind and playing at sea in an all-inclusive Cruise.
+                    There are so many wonderful ports to see!
+                    We have special offers with extra perks and amenities when you book through
+                    Sutton Travel. </p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">24/7 After Hours Service</h3>
+                <p>Toll free numbers worldwide are available on request for a minimal per call fee.</p>
+            </div>
+        </div>
+        <div>
+            <div class="uk-card uk-card-default uk-card-body">
+                <h3 class="uk-card-title">Travel Technology</h3>
+                <p>We utilize Sabre Red Workspace as our booking engine for air, car and hotel and have access with our
+                    affiliated partner Travel Leaders web booking portal.
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- end why book with us -->
+
+
+    <!-- begin of Incentive Travel -->
+    <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200 pacity: 0,1"
+        style="background-image: url('./assets/images/dubrovnik.jpg'); margin-top:40px;">
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"></h1>
+
+    </div>
+    <div class="uk-section uk-section-muted">
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical uk-heading-primary"
+            uk-parallax="target: #test-target; color: #4d4dff; viewport: 0.9 why">Why Book With Us</h1>
+        <div class="uk-container">
+            <p class="corporatep">We bring our global background and combined 40 years of experience in
+                Corporate Travel
+                Management and Incentive and Group Travel to those wanting to plan the Perfect Getaway! </p>
+        </div>
+        <div class="uk-container">
+
+            <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
+                <div>
+                    <h4 class="uk-text-bold">Over 40 Years Professional and Personal Experience</h4>
+                    <p>We bring our global background and combined 40 years of experience in
+                        Leisure Travel and Incentive and Group Travel to those wanting to plan the Perfect Getaway! </p>
+                </div>
+                <div>
+                    <h4 class="uk-text-bold">100% Customizable</h4>
+                    <p>Tell us about your trip requirement. We'll work together to customize your trip to meet your
+                        exact requirement so that you have a memorable trip.</p>
+                </div>
+                <div>
+                    <h4 class="uk-text-bold">Local Experts. Middle-man Free Pricing</h4>
+                    <p>We're a local travel agency. When you book with us, you get best possible price, which is
+                        middle-man free.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="uk-container uk-margin-medium-bottom uk-margin-medium-top">
+
+        <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical"
+            uk-parallax="target: #test-target; color: #4d4dff; viewport: 0.9">Why Should I Use Sutton Travel</h1>
+
+        <p class="pmargin">We take the time to get to understand your approach to travel, determine the best value and
+            help guide travelers in planning and selecting your travel experience.
+            Then we match these factors with your budget and use our insider
+            connections to plan and organize your trip. Our travel professionals are here for you to talk to, answer
+            your questions, and design your experience.
+        </p>
+
+    </div>
+
+
+    </div>
+    <!-- end of Incentive Travel-->
+
+    <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+        style="background-image: url('./assets/images/lakeviewcover.jpg');">
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+            <h1 uk-parallax="opacity: 0,1,1; y: -100,0,0; x: 100,100,0; scale: 2,1,1; viewport: 0.5;">Sutton Travel</h1>
+            <p uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; viewport: 0.5;">Travel Made
+                Easy!</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Contact Information</h3>
+                    <ul class="uk-list">
+                        <li>Phone: (949) 388-3668</li>
+                        <li><a href="mailto:info@suttontravel.com">Email: info@suttontravel.com</a></li>
+                        <li>Laguna Niguel, CA 92677</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Useful Links</h3>
+                    <ul class="uk-list">
+                        <li><a href="https://cibtvisas.com/" target="_blank">CIBT Visa and Passport Service</a>
+                        </li>
+                        <li><a href="https://travel.state.gov/" target="_blank">Check US Passport and Visa
+                                Requirements</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Social Media</h3>
+
+                    <a href="https://www.facebook.com/suttontravelus" uk-icon="icon: facebook" target="_blank"></a>
+
+
+                    <a href="https://twitter.com/suttontravelusa" uk-icon="icon: twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/suttontravelusa/" uk-icon="icon: instagram" target="_blank"></a>
+                    <a href="https://pinterest.com/suttontravel" uk-icon="icon: pinterest" target="_blank"></a>
+                    <a href="https://www.yelp.com/biz/sutton-travel-laguna-niguel?osq=sutton+travel"
+                        uk-icon="icon: yelp" target="_blank"></a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+
+
+
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 2000
+    })
+    UIkit.img(element, options);
+    UIkit.nav(element).toggle(index, animate);
+</script>
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+</html>

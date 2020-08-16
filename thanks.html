@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS links -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- JQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+    <style>
+        .container {
+          position: relative;
+          width: 100%;
+          /* max-width: 400px; */
+          padding-top: 50px;
+        }
+        
+        .container img {
+          width: 100%;
+          height: auto;
+        }
+        
+        .container .btn {
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          background-color: #555;
+          color: white;
+          font-size: 16px;
+          padding: 12px 24px;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+          text-align: center;
+          width: 200px;
+          color: white;
+          
+        }
+        
+        .container .btn:hover {
+          background-color: black;
+        }
+        </style>
+    <title>Home</title>
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="lock">
+
+    </a>
+    <nav class="uk-navbar-container" style="padding:10px;" uk-navbar><a class="uk-navbar-toggle dis-none h-40"
+            id="navbar_toggle" uk-toggle="target: #offcanvas-usage">
+            <i uk-icon="icon: menu; ratio: 2"></i>
+            <div class="uk-navbar-left uk-logo">
+                <a href="index.html"><img src="./assets/images/stlogo.png" alt="suttontravellogo"
+                        class="responsive a"></a>
+            </div>
+            <div class="uk-navbar-center navHeight">
+            </div>
+            <div class="uk-navbar-left topnav">
+
+                <!-- ************************ SIDE NAVBAR ************************************************** -->
+
+                <div id="offcanvas-usage" uk-offcanvas>
+                    <div class="uk-offcanvas-bar">
+
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                            <li class="uk-paent"><a href="index.html">Home</a></li>
+
+                            <!-- <li class="uk-parent"><a href="specials.html">Sutton Travel Picks</a></li> -->
+                            <li class="uk-parent"><a href="services.html">Services</a></li>
+                            <li class="uk-parent"><a href="contactUs.html">Contact Us</a></li>
+                            <li class="uk-active"><a href="https://www.classicvacations.com/ta/suttontravel" class="uk-text-bold">Search
+                                    Travel Packages</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- **************************** SIDE NAVBAR END ********************************************** -->
+                <div class="navbar-collapse" id="navbar_collapse">
+                    <ul class="uk-navbar-nav uk-navbar-center">
+                        <li><a href="index.html">Home</a></li>
+                        <!-- <li class="uk-parent"><a href="specials.html">Sutton Travel Picks</a></li> -->
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li class="uk-active"><a href="https://www.classicvacations.com/ta/suttontravel">Search Travel Packages</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+</div>
+
+<!-- navbar end -->
+<div class="container">
+<img src="./assets/images/thankyoupage.png" class="container" style="width:100%">
+<a href="home.html"><button class="btn">Return to Home Page</button></a>
+</div>
+
+  
+
+    <footer>
+        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Contact Information</h3>
+                    <ul class="uk-list">
+                        <li>Phone: (949) 388-3668</li>
+                        <li><a href="mailto:info@suttontravel.com">Email: info@suttontravel.com</a></li>
+                        <li>Laguna Niguel, CA 92677</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Useful Links</h3>
+                    <ul class="uk-list">
+                        <li><a href="https://cibtvisas.com/" target="_blank">CIBT Visa and Passport Service</a>
+                        </li>
+                        <li><a href="https://travel.state.gov/" target="_blank">Check US Passport and Visa
+                                Requirements</a></li>
+                        <!-- <li><a href="vacationsearch.html" target="_blank">Vacation Package Search</a></il> -->
+                            <li><a href="https://www.classicvacations.com/ta/suttontravel" target="_blank">Vacation Search with Classic
+                                Vacations</a></il>
+
+
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                    <h3>Social Media</h3>
+
+                    <a href="https://www.facebook.com/suttontravelus" uk-icon="icon: facebook" target="_blank"></a>
+
+
+                    <a href="https://twitter.com/suttontravelusa" uk-icon="icon: twitter" target="_blank"></a>
+                    <a href="https://www.instagram.com/suttontravelusa/" uk-icon="icon: instagram" target="_blank"></a>
+                    <a href="https://pinterest.com/suttontravel" uk-icon="icon: pinterest" target="_blank"></a>
+                    <a href="https://www.yelp.com/biz/sutton-travel-laguna-niguel?osq=sutton+travel"
+                        uk-icon="icon: yelp" target="_blank"></a>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+
+
+
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 2000
+    })
+    UIkit.img(element, options);
+    UIkit.nav(element).toggle(index, animate);
+
+    $('#myCarousel').on('slide.bs.carousel', function () {
+        // do something…
+    })
+    UIkit.scrollspyNav(element, options);
+    UIkit.nav(element).toggle(index, animate);
+    UIkit.scroll(element, options);
+    UIkit.util.on('#js-scroll-trigger', 'scrolled', function () {
+        alert('Done.');
+    });
+    UIkit.offcanvas(element, options);
+
+
+
+</script>
+
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
+<script src="uikit/dist/js/uikit-icons.min.js"></script>
+
+
+
+</html>
